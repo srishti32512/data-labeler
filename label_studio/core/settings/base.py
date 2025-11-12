@@ -1,7 +1,7 @@
 """This file and its contents are licensed under the Apache License 2.0. Please see the included NOTICE for copyright information and LICENSE for a copy of the license."""
 
 """
-Django Base settings for Label Studio.
+Django Base settings for Data Labeler.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/3.1/topics/settings/
@@ -379,8 +379,8 @@ RQ_FAILED_JOB_TTL = int(get_env('RQ_FAILED_JOB_TTL', 30 * 24 * 60 * 60))
 
 # drf-spectacular settings for OpenAPI 3.0 schema generation
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Label Studio API',
-    'DESCRIPTION': 'Label Studio API for data annotation and labeling',
+    'TITLE': 'Data Labeler API',
+    'DESCRIPTION': 'Data Labeler API for data annotation and labeling',
     'VERSION': '',
     'SERVE_INCLUDE_SCHEMA': False,
     'COMPONENT_SPLIT_REQUEST': True,
@@ -397,7 +397,7 @@ SPECTACULAR_SETTINGS = {
     'SERVERS': [
         {
             'url': HOSTNAME,
-            'description': 'Label Studio',
+            'description': 'Data Labeler',
         },
     ],
     'CONTACT': {'url': 'https://labelstud.io'},
@@ -542,7 +542,7 @@ RANDOM_NEXT_TASK_SAMPLE_SIZE = int(get_env('RANDOM_NEXT_TASK_SAMPLE_SIZE', 50))
 TASK_API_PAGE_SIZE_MAX = int(get_env('TASK_API_PAGE_SIZE_MAX', 0)) or None
 
 # Email backend
-FROM_EMAIL = get_env('FROM_EMAIL', 'Label Studio <hello@labelstud.io>')
+FROM_EMAIL = get_env('FROM_EMAIL', 'Data Labeler <hello@labelstud.io>')
 EMAIL_BACKEND = get_env('EMAIL_BACKEND', 'django.core.mail.backends.dummy.EmailBackend')
 
 ENABLE_LOCAL_FILES_STORAGE = get_bool_env('ENABLE_LOCAL_FILES_STORAGE', default=True)
@@ -902,7 +902,7 @@ QS_ITERATOR_DEFAULT_CHUNK_SIZE = int(get_env('QS_ITERATOR_DEFAULT_CHUNK_SIZE', 1
 # Max number of users to display in the Data Manager in Annotators/Reviewers/Comment Authors, etc
 DM_MAX_USERS_TO_DISPLAY = int(get_env('DM_MAX_USERS_TO_DISPLAY', 10))
 
-# Base FSM (Finite State Machine) Configuration for Label Studio
+# Base FSM (Finite State Machine) Configuration for Data Labeler
 FSM_CACHE_TTL = 300  # Cache TTL in seconds (5 minutes)
 
 # Used for async migrations. In LSE this is set to a real queue name, including here so we
