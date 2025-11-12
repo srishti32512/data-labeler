@@ -1,25 +1,24 @@
-<img src="https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png"/>
 
 ![GitHub](https://img.shields.io/github/license/heartexlabs/label-studio?logo=heartex) ![label-studio:build](https://github.com/HumanSignal/label-studio/workflows/label-studio:build/badge.svg) ![GitHub release](https://img.shields.io/github/v/release/heartexlabs/label-studio?include_prereleases)
 
 [Website](https://labelstud.io/) • [Docs](https://labelstud.io/guide/) • [Join Slack Community <img src="https://app.heartex.ai/docs/images/slack-mini.png" width="18px"/>](https://slack.labelstud.io/?source=github-1)
 
 
-## What is Label Studio?
+## What is Data Labeler?
 
 <!-- <a href="https://labelstud.io/blog/release-130.html"><img src="https://github.com/HumanSignal/label-studio/raw/master/docs/themes/htx/source/images/release-130/LS-Hits-v1.3.png" align="right" /></a> -->
 
-Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.
+Data Labeler is an open source data labeling tool. It lets you label data types like pdf and images with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.
 
-- [Try out Label Studio](#try-out-label-studio)
-- [What you get from Label Studio](#what-you-get-from-label-studio)
-- [Included templates for labeling data in Label Studio](#included-templates-for-labeling-data-in-label-studio)
-- [Set up machine learning models with Label Studio](#set-up-machine-learning-models-with-Label-Studio)
-- [Integrate Label Studio with your existing tools](#integrate-label-studio-with-your-existing-tools)
+- [Try out Data Labeler](#try-out-data-labeler)
+- [What you get from data labeler](#what-you-get-from-data-labeler)
+- [Included templates for labeling data in Data Labeler](#included-templates-for-labeling-data-in-data-labeler)
+- [Set up machine learning models with Data Labeler](#set-up-machine-learning-models-with-data-labeler)
+- [Integrate Data Labeler with your existing tools](#integrate-data-labeler-with-your-existing-tools)
 
-![Gif of Label Studio annotating different types of data](/images/annotation_examples.gif)
+![Gif of Data Labeler annotating different types of data](/images/annotation_examples.gif)
 
-Have a custom dataset? You can customize Label Studio to fit your needs. Read an [introductory blog post](https://towardsdatascience.com/introducing-label-studio-a-swiss-army-knife-of-data-labeling-140c1be92881) to learn more. 
+Have a custom dataset? You can customize Data Labeler to fit your needs. Read an [introductory blog post](https://towardsdatascience.com/introducing-label-studio-a-swiss-army-knife-of-data-labeling-140c1be92881) to learn more. 
 
 ## Try out Label Studio
 
